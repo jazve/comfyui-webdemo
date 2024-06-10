@@ -125,6 +125,12 @@ export default defineNuxtConfig({
                 }),],
         },
         css: ['~/assets/css/main.scss'],
-        devtools: {enabled: true}
+        devtools: {enabled: true},
+
+        hub: {
+            database: true,
+            kv: true,
+            blob: true,
+          },
     }
 )
